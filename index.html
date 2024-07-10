@@ -10,32 +10,33 @@
   </head>
   <body>
     <header>
-      <div
+      <div id="Home"
         class="overlay vh-100 text-white d-flex justify-content-center align-items-center position-relative"
       >
         <div>
-          <nav class="d-flex d-none">
-            <div class="links bg-black position-fixed top-0 start-0 vh-100 p-5">
+          <nav class="d-flex">
+            <div class="links bg-black position-fixed top-0 start-0 vh-100">
               <div class="mb-3 pb-5">
                 <i
                   class="btnClose fa-solid fa-xmark closeBtn position-absolute text-white fs-3"
                 ></i>
               </div>
-              <ul class="list-unstyled pe-5">
-                <li class="fs-3 my-4">Home</li>
-                <li class="fs-3 my-4">Duration</li>
-                <li class="fs-3 my-4">Details</li>
-                <li class="fs-3 my-4">Contact</li>
+              <ul class="list-unstyled pe-5 ">
+                <li class="fs-3 my-4"><a href="#Home" class="text-decoration-none text-white">Home</a></li>
+                <li class="fs-3 my-4"><a href="#Duration" class="text-decoration-none text-white">Duration</a></li>
+                <li class="fs-3 my-4"><a href="#Details" class="text-decoration-none text-white">Details</a></li>
+                <li class="fs-3 my-4"><a href="#Contact" class="text-decoration-none text-white">Contact</a></li>
               </ul>
             </div>
 
-            <div
+
+          </nav>
+          <div
             class="open position-absolute d-flex justify-content-center align-items-center fs-2 "
           >
             <i class="fa-solid fa-bars mx-3"></i>
             <span>open</span>
           </div>
-          </nav>
         </div>
 
        
@@ -49,9 +50,9 @@
 
     <section id="Accordion" class="my-5 py-5">
       <div
-        class="signer bg-opacity-75 bg-danger w-50 m-auto text-center text-white"
+      id="Duration" class="signer bg-opacity-75 bg-danger w-50 m-auto text-center text-white"
       >
-        <h3>Singer one</h3>
+        <h3 >Singer one</h3>
         <p class="text-dark-emphasis">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -97,8 +98,8 @@
       </div>
     </section>
 
-    <section id="dateParty" class="my-5 py-5">
-      <div class="datePartyOverlay container text-white">
+    <section id="Details" class="my-5 py-5">
+      <div  class="datePartyOverlay container text-white">
         <div class="row bg-danger- subtle py-5 my-5 g-4">
           <div class="col-sm-6 col-md-3">
             <div
@@ -133,7 +134,7 @@
     </section>
 
     <section id="contactUs" class="my-5 py-5">
-      <div class="container">
+      <div id="Contact" class="container">
         <h2 class="fw-bolder text-dark fs-1">JOIN US</h2>
         <p class="text-center">
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
