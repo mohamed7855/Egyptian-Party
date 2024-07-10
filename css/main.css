@@ -1,0 +1,71 @@
+nav .closeBtn {
+  right: 35px;
+}
+nav li,
+nav i {
+  transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  cursor: pointer;
+}
+nav li:hover,
+nav .btnClose:hover {
+  color: #d62e33 !important;
+}
+header .open {
+  left: 250px;
+  top: 65%;
+  cursor: pointer;
+}
+header .content h2 {
+  font-size: 60px;
+}
+header {
+  background-image: linear-gradient(rgb(214 46 51 /0.6), rgb(214 46 51 /0.6)),
+    url("../images/events-heavenly-header.jpg");
+}
+#Accordion h3{
+  cursor: pointer;
+  margin-bottom: 0;
+  padding-block: 10px;
+}
+#Accordion p {
+  background-color: #ccc;
+  padding: 15px;
+  margin: 0 !important;
+}
+#Accordion p:not(:nth-of-type(1)) {
+  display: none;
+}
+#dateParty {
+  background-image: linear-gradient(rgb(214 46 51 /0.6), rgb(214 46 51 /0.6)),
+    url("../images/invitation-2508607__340.jpg");
+}
+header,
+#dateParty {
+  background-position: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dateParty .row div > div {
+  height: 140px;
+}
+#contactUs + p,
+#contactUs + i {
+  color: #777 !important;
+}
+#contactUs .icons i {
+  width: 35px;
+  height: 35px;
+}
+#contactUs .icons i:hover {
+  background-color: #d62e33;
+  color: #fff !important;
+  border: none !important;
+}
+#contactUs textarea {
+  height: 150px;
+  max-height: 250px;
+}
