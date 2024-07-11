@@ -1,3 +1,13 @@
+// Loading Screen
+$(function () {
+  $(".loader").fadeOut(1000, function () {
+    $(".loading").slideUp(1000, function () {
+      $('body').css('overflow', 'auto');
+      $('.loading').remove();
+    });
+  });
+});
+
 // Nav Animation
 $("nav .btnClose").on("click", function () {
   console.log("object");
